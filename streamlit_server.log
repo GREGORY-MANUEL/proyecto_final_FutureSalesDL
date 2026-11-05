@@ -1,0 +1,217 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.100.6:8501
+  External URL: http://38.25.166.249:8501
+
+2026-05-17 12:15:45.826 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\app.py", line 156, in <module>
+    df_nuevo = extraer_datos_a2(uploaded_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 296, in _get_or_create_cached_value
+    value_key = _make_value_key(
+                ^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 524, in _make_value_key
+    update_hash(
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\hashing.py", line 169, in update_hash
+    ch.update(hasher, val)
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\hashing.py", line 345, in update
+    b = self.to_bytes(obj)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\hashing.py", line 327, in to_bytes
+    b = b"%s:%s" % (tname, self._to_bytes(obj))
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\GC - PURCHASING TECH\.venv\Lib\site-packages\streamlit\runtime\caching\hashing.py", line 575, in _to_bytes
+    self.update(h, os.path.getmtime(obj_name))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 67, in getmtime
+FileNotFoundError: [WinError 2] El sistema no puede encontrar el archivo especificado: 'LYNOX 27-4-26.pdf'
+2026-05-17 12:17:19.155 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:17:23.765 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:17:23.768 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:18:20.200 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:18:20.202 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:20:00.484 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:20:00.602 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:20:00.603 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:34:11.993 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:34:11.996 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:34:28.515 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:34:28.516 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:36:04.386 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:36:05.138 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:36:05.140 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:41:41.899 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:41:41.900 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:42:35.138 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:35.188 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:35.190 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:42:44.585 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:44.609 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:44.612 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:42:46.346 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:46.373 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:42:46.374 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:12.015 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:12.045 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:12.046 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:12.828 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:12.853 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:12.855 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:13.476 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:13.502 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:13.504 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:14.098 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:14.127 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:14.128 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:14.865 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:14.889 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:14.890 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:15.866 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:15.888 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:15.890 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:19.097 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:19.122 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:19.124 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.
+2026-05-17 12:43:19.583 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:19.605 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-17 12:43:19.607 Setting `hide_index=True` in data editor with a non-range index will not have any effect when `num_rows` is 'dynamic'. It is required for the user to fill in index values for adding new rows. To hide the index, make sure to set the DataFrame index to a range index.

@@ -1,0 +1,12 @@
+appId: com.fnh.generadoroc
+productName: Generador OC
+directories:
+  output: dist
+  buildResources: build
+win:
+  target:
+    - portable
+files:
+  - build/**/*
+  - package.json
+  - build/stlite-manifest.json

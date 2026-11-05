@@ -1,0 +1,15 @@
+streamlit
+pandas
+fpdf2
+pdfplumber==0.7.6
+openpyxl
+xlsxwriter
+numpy
+requests
+beautifulsoup4
+plotly
+pywebview
+bcrypt
+rapidfuzz
+torch
+scikit-learn

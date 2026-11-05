@@ -1,0 +1,6 @@
+streamlit
+pandas
+pdfplumber==0.7.6
+openpyxl
+xlsxwriter
+numpy

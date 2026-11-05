@@ -1,0 +1,55 @@
+{
+  "name": "generador-ordenes-compra",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio para generación de órdenes de compra",
+  "main": "build/electron/main.js",
+  "scripts": {
+    "dump": "dump-stlite-desktop-artifacts",
+    "serve": "npx @stlite/desktop serve ./build",
+    "pack": "electron-builder"
+  },
+  "dependencies": {
+    "@stlite/desktop": "latest"
+  },
+  "devDependencies": {
+    "electron": "^41.0.4",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.fnh.generadoroc",
+    "productName": "Generador OC",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "portable",
+      "icon": null
+    }
+  },
+  "stlite": {
+    "desktop": {
+      "files": [
+        "app.py",
+        "login.py",
+        "registro.py",
+        "mantenimiento.py",
+        "core",
+        "ui",
+        "assets"
+      ],
+      "entrypoint": "app.py",
+      "dependencies": [
+        "streamlit",
+        "pandas",
+        "pdfplumber==0.7.6",
+        "openpyxl",
+        "xlsxwriter",
+        "requests",
+        "numpy",
+        "bcrypt",
+        "rapidfuzz"
+      ]
+    }
+  }
+}
